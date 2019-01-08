@@ -27,7 +27,7 @@ public class Admin extends Thread
          
 			try
 {
-
+//第一次注释
 			 	System.out.println("等待远程连接，端口号为：" + serverSocket.getLocalPort() + "...");
 				Socket server = serverSocket.accept();
 
